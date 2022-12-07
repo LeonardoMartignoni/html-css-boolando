@@ -1,6 +1,8 @@
 /* Header */
 
 header {
+    position: fixed;
+    z-index: 1;
     width: 100%;
     background-color: #ff6900;
     padding: 20px;
@@ -44,7 +46,7 @@ nav,
 /* Main Content */
 
 .main-content {
-    padding: 60px 0 60px 0;
+    padding: 150px 0 60px 0;
 }
 
 .row {
