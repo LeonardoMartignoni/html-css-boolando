@@ -1,3 +1,5 @@
+/* Header */
+
 header {
     background-color: #ff6900;
     padding: 20px;
@@ -30,10 +32,57 @@ nav,
     text-align: center;
 }
 
-.logo > img {
+.logo>img {
     height: 40px;
 }
 
-.main-header > .profile {
+.main-header>.profile {
     text-align: right;
+}
+
+/* Main Content */
+
+.main-content {
+    padding: 60px 0;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 50px;
+}
+
+.col {
+    width: 32%;
+}
+
+/* Main Content Infos */
+
+.product-info span {
+    display: block;
+}
+
+.product-info>.product-price,
+.product-info>.product-price-discount {
+    display: inline-block;
+}
+
+.product-info>.product-brand {
+    font-weight: 300;
+}
+
+.product-info>.product-name {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.product-info>.product-price {
+    color: red;
+    font-weight: 500;
+}
+
+.product-info>.product-price-discount {
+    font-weight: 300;
+    text-decoration: line-through;
 }
