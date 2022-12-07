@@ -18,11 +18,11 @@ header {
 }
 
 nav span {
-    margin-right: 5px;
+    margin-right: 8px;
 }
 
 .profile i {
-    margin-left: 5px;
+    margin-left: 10px;
 }
 
 nav,
@@ -158,9 +158,10 @@ footer {
 }
 
 .company-socials {
-    text-align: center;
+    text-align: right;
 }
 
 .company-socials i {
-    margin: 10px 5px 0 0;
+    font-size: 24px;
+    margin: 10px 0 0 10px;
 }
