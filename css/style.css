@@ -108,3 +108,30 @@ nav,
     font-weight: 300;
     text-decoration: line-through;
 }
+
+/* Footer */
+
+footer {
+    background-color: #1A1A1A;
+    color: white;
+    padding: 40px 0;
+}
+
+.main-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.company-infos ul li {
+    display: inline-block;
+    margin: 10px 15px 0 0;
+}
+
+.company-socials {
+    text-align: center;
+}
+
+.company-socials i {
+    margin: 10px 5px 0 0;
+}
