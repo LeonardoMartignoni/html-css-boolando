@@ -35,7 +35,7 @@ nav,
     text-align: center;
 }
 
-.logo>img {
+.logo img {
     height: 40px;
 }
 
@@ -98,15 +98,15 @@ nav,
 
 /* Main Content Infos */
 
-.col>.hover-img {
+.col .hover-img {
     display: none;
 }
 
-.col:hover>.hover-img {
+.col:hover .hover-img {
     display: inline-block;
 }
 
-.col:hover>.front-img {
+.col:hover .front-img {
     display: none;
 }
 
