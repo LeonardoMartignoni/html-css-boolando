@@ -54,7 +54,29 @@ nav,
 }
 
 .col {
+    position: relative;
     width: 32%;
+}
+
+/* Discount Tag */
+.product-tags {
+    position: absolute;
+    bottom: 120px;
+}
+
+.tag {
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 5px 10px;
+}
+
+.discount-tag.tag {
+    background-color: red;
+}
+
+.sustainability-tag.tag {
+    background-color: #008000;
 }
 
 /* Main Content Infos */
