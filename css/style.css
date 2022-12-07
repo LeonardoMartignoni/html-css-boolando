@@ -1,6 +1,7 @@
 /* Header */
 
 header {
+    width: 100%;
     background-color: #ff6900;
     padding: 20px;
     box-shadow: 0 1px 5px;
@@ -43,7 +44,7 @@ nav,
 /* Main Content */
 
 .main-content {
-    padding: 60px 0;
+    padding: 60px 0 60px 0;
 }
 
 .row {
@@ -94,6 +95,18 @@ nav,
 }
 
 /* Main Content Infos */
+
+.col>.hover-img {
+    display: none;
+}
+
+.col:hover>.hover-img {
+    display: inline-block;
+}
+
+.col:hover>.front-img {
+    display: none;
+}
 
 .product-info span {
     display: block;
